@@ -3,10 +3,10 @@ import { Platform, StatusBar } from "react-native";
 const metrics = {
   text: {
     fontSize: {
-      small: 20,
-      medium: 30,
-      large: 40,
-      xlarge: 50,
+      small: 30,
+      medium: 50,
+      large: 70,
+      xlarge: 90,
     },
 
     fontFamily: {
@@ -18,7 +18,7 @@ const metrics = {
     },
   },
 
-  padding: {
+  spacers: {
     small: 30,
     medium: 60,
     large: 90,
@@ -26,3 +26,5 @@ const metrics = {
 
   statusBar: Platform.OS === "android" ? `_${StatusBar.currentHeight}` : 0,
 };
+
+export default metrics;
