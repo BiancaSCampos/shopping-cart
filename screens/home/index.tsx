@@ -1,12 +1,19 @@
-import { View, Text, StatusBar } from "react-native";
+import { View, Text, StatusBar, Image } from "react-native";
 import React from "react";
+import Avatar from "../../components/atoms/avatar";
+import styles from "./styles";
+import colors from "../../constants/colors";
 
 const Home = () => {
   return (
-    <View>
-      <StatusBar backgroundColor={"#fff"} barStyle="dark-content" />
-      <Text> Home </Text>
-    </View>
+    <>
+      <StatusBar backgroundColor={colors.secondary} barStyle="light-content" />
+      <View style={styles.container}>
+        <Avatar />
+
+        <Text style={styles.text}>Catalog</Text>
+      </View>
+    </>
   );
 };
 
