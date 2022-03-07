@@ -24,6 +24,12 @@ const metrics = {
     large: 90,
   },
 
+  borderRadius: {
+    small: 15,
+    medium: 30,
+    large: 45,
+  },
+
   statusBar: Platform.OS === "android" ? `_${StatusBar.currentHeight}` : 0,
 };
 
