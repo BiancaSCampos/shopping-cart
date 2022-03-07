@@ -3,6 +3,7 @@ import React from "react";
 import Avatar from "../../components/atoms/avatar";
 import styles from "./styles";
 import colors from "../../constants/colors";
+import BrandFilter from "../../components/atoms/brandFilter";
 
 const Home = () => {
   return (
@@ -12,6 +13,8 @@ const Home = () => {
         <Avatar />
 
         <Text style={styles.text}>Catalog</Text>
+
+        <BrandFilter />
       </View>
     </>
   );
