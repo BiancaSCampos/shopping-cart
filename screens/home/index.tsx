@@ -4,6 +4,7 @@ import Avatar from "../../components/atoms/avatar";
 import styles from "./styles";
 import colors from "../../constants/colors";
 import BrandFilter from "../../components/atoms/brandFilter";
+import { AdidasSymbol, NikeSymbol, PumaSymbol } from "../../assets/icons";
 
 const Home = () => {
   return (
@@ -14,7 +15,9 @@ const Home = () => {
 
         <Text style={styles.text}>Catalog</Text>
 
-        <BrandFilter />
+        <BrandFilter children={<NikeSymbol />} />
+        <BrandFilter children={<AdidasSymbol />} />
+        <BrandFilter children={<PumaSymbol />} />
       </View>
     </>
   );
