@@ -1,11 +1,12 @@
 import { StyleSheet } from "pr-unit";
+import metrics from "../../../constants/metrics";
 
 const styles = StyleSheet.create({
   container: {
     height: 200,
     width: 200,
     borderRadius: 300,
-    elevation: 10,
+    elevation: metrics.elevation,
   },
 
   image: {
