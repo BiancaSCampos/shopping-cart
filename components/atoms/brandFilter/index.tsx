@@ -1,14 +1,10 @@
-import { View, Text } from "react-native";
 import React from "react";
-import { AdidasSymbol, NikeSymbol, PumaSymbol } from "../../../assets/icons";
+import { TouchableOpacity } from "react-native";
+import { BrandFilterProps } from "./types";
 import styles from "./styles";
 
-const BrandFilter = ({
-  children,
-}: {
-  children: React.ReactNode | React.ReactNode[];
-}) => {
-  return <View style={styles.container}>{children}</View>;
+const BrandFilter = ({ icon }: BrandFilterProps) => {
+  return <TouchableOpacity style={styles.container}>{icon}</TouchableOpacity>;
 };
 
 export default BrandFilter;
