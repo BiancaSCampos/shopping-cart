@@ -16,6 +16,12 @@ const styles = StyleSheet.create({
     color: colors.white,
     fontFamily: metrics.text.fontFamily.bold,
   },
+
+  filtersContainer: {
+    flexDirection: "row",
+    width: "100%",
+    justifyContent: "space-between",
+  },
 });
 
 export default styles;
