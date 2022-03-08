@@ -30,6 +30,8 @@ const metrics = {
     large: 45,
   },
 
+  elevation: 15,
+
   statusBar: Platform.OS === "android" ? `_${StatusBar.currentHeight}` : 0,
 };
 
