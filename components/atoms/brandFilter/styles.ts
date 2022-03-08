@@ -5,7 +5,7 @@ import metrics from "../../../constants/metrics";
 const styles = StyleSheet.create({
   container: {
     height: 175,
-    width: 175,
+    width: 330,
 
     padding: metrics.spacers.small,
 
@@ -16,6 +16,8 @@ const styles = StyleSheet.create({
     backgroundColor: colors.primary,
 
     marginTop: metrics.spacers.medium,
+
+    elevation: metrics.elevation,
   },
 });
 
