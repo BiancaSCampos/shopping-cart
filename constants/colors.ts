@@ -3,7 +3,8 @@ const colors = {
   white: "#ffffff",
   primary: "#172347",
   secondary: "#8296D1",
-  contrast: "##CC3C3D",
+  contrast: "#CB861F",
+  disabled: "#838383",
 };
 
 export default colors;
