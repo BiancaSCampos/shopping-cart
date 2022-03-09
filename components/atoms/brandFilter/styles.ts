@@ -4,8 +4,8 @@ import metrics from "../../../constants/metrics";
 
 const styles = StyleSheet.create({
   container: {
-    height: 175,
-    width: 330,
+    height: 150,
+    width: 300,
 
     padding: metrics.spacers.small,
 
