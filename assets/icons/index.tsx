@@ -33,3 +33,37 @@ export const PumaSymbol = ({ fill = "#fff", ...props }: SvgProps) => (
     </Defs>
   </Svg>
 );
+
+export const Favorite = ({ fill = "#838383", ...props }: SvgProps) => (
+  <Svg viewBox="0 0 24 24" {...props}>
+    <Path
+      d="M7 3C4.239 3 2 5.216 2 7.95c0 2.207.875 7.445 9.488 12.74a.985.985 0 0 0 1.024 0C21.125 15.395 22 10.157 22 7.95 22 5.216 19.761 3 17 3s-5 3-5 3-2.239-3-5-3Z"
+      stroke={fill}
+      strokeWidth={2}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </Svg>
+);
+
+export const AddCart = ({ fill = "#CB861F", ...props }: SvgProps) => (
+  <Svg viewBox="0 0 24 24" {...props}>
+    <Path
+      d="M12 12H4m8 8v-8 8Zm0-8V4v8Zm0 0h8-8Z"
+      stroke={fill}
+      strokeWidth={2}
+      strokeLinecap="round"
+    />
+  </Svg>
+);
+
+export const Search = ({ fill = "#000000", ...props }: SvgProps) => (
+  <Svg viewBox="0 0 24 24" {...props}>
+    <Path
+      d="m21 21-4.486-4.494L21 21Zm-2-10.5a8.5 8.5 0 1 1-17 0 8.5 8.5 0 0 1 17 0v0Z"
+      stroke={fill}
+      strokeWidth={2}
+      strokeLinecap="round"
+    />
+  </Svg>
+);
